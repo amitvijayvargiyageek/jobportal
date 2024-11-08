@@ -11,7 +11,7 @@ import cookieParser from 'cookie-parser';
 import jobRouter from './routes/jobRouter.js';
 import authRouter from './routes/authRouter.js';
 import userRouter from './routes/userRouter.js';
-import errorHandlerMiddleware from './middleware/ErrorMiddleware.js';
+import errorHandlerMiddleware from './middleware/errorMiddleware.js';
 import { authenticateUser } from './middleware/authMiddleware.js';
 
 dotenv.config();
